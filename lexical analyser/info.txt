@@ -1,0 +1,64 @@
+lexical analyser
+
+use input string code and make tokens
+using DFA
+
+https://www.thecrazyprogrammer.com/2017/02/lexical-analyzer-in-c.html
+
+input
+
+int main(){
+int a=3;
+float b=5;
+int c=7;
+int d=a+c;
+for(int i=0;i<3;i++){
+}
+
+}
+
+output
+
+keyword::int
+keyword:: main
+operator:: (
+operator:: )
+operator:: {
+keyword:: int
+identifier:: int
+operator:: =
+number:: 3
+operator:: ;
+keyword:: float
+identifier:: float
+number:: 5
+operator:: ;
+keyword:: int
+identifier:: int
+operator:: =
+number:: 7
+operator:: ;
+keyword:: int
+identifier:: int
+operator:: =
+identifier:: int
+operator:: +
+identifier:: int
+operator:: ;
+keyword:: for
+operator:: (
+keyword:: int
+identifier:: int
+operator:: =
+number:: 0
+operator:: ;
+identifier:: int
+operator:: <
+number:: 3
+operator:: ;
+identifier:: int
+operator:: ++
+operator:: )
+operator:: {
+operator:: }
+operator:: }
