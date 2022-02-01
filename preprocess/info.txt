@@ -18,14 +18,10 @@ int d=a+c;
 for(int i=0;i<3;i++){
 }
 }
-
-Copy
-
 this file "mylib.txt" includes
 
 #define seta int a=3
 
-Copy
 output
 
 int main(){
@@ -37,5 +33,3 @@ for(int i=0;i<3;i++){
 }
 
 }
-
-Copy
